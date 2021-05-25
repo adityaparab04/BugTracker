@@ -18,9 +18,9 @@
   "author": "Aditya",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/adityaparab04/BugTracker/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/adityaparab04/BugTracker#README.md",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",

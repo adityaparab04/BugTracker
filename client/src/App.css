@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Fjalla+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.login_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.login_form {
+    border: 3px solid cornflowerblue;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 6px 6px 5px cornflowerblue;
+}
+
+.login_from_section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login_form_label {
+    font-size: 20px;
+    margin: 5px 0;
+    color: cornflowerblue;
+}
+
+.login_form_select {
+    font-size: 15px;
+    padding: 5px 10px;
+    width: 100px;
+    margin-bottom: 20px;
+    border: 1px solid cornflowerblue;
+}
+
+.login_form_select:focus {
+    outline: 3px solid cornflowerblue;
+}
+
+.login_form_input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 15px;
+    width: 300px;
+    border: 1px solid cornflowerblue;
+}
+
+.login_form_input:focus {
+    outline: 3px solid cornflowerblue;
+}
+
+.login_form_button {
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 2px solid green;
+    background: rgb(209, 255, 209);
+    border-radius: 4px;
+    color: green;
+    margin-top: 10px;
+}
+
+.login_form_button:focus {
+    outline: none;
+    border: 3px solid green;
+}
+
+.statusbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background: rgb(44, 43, 43);
+    color: white;
+}
+
+.statusbar__heading {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.statusbar_logout {
+    margin: 30px;
+    font-size: 15px;
+    background: rgb(44, 43, 43);
+    color: red;
+    text-decoration: none;
+}
+
+.bugs__container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+}
+
+.bugs__heading {
+    font-size: 24px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.bugs__heading_unassigned {
+    border-bottom: 2px dashed red;
+}
+
+.bugs__heading_assigned {
+    border-bottom: 2px dashed blue;
+}
+
+.bugs__heading_notworking {
+    border-bottom: 2px dashed orangered;
+}
+
+.bugs__heading_solved {
+    border-bottom: 2px dashed green;
+}
+
+.bug__container {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(170, 170, 170);
+    margin: 20px 0;
+    width: 700px;
+}
+
+.bug__container__red {
+    border: 2px solid red;
+}
+
+.bug__container__orangered {
+    border: 2px solid orangered;
+}
+
+.bug__container__blue {
+    border: 2px solid blue;
+}
+
+.bug__container__green{
+    border: 2px solid green;
+}
+
+.bug__container__yellow{
+    border: 2px solid yellow;
+}
+
+.bug__container p {
+    margin-bottom: 5px;
+}
+
+.bug__titles {
+    font-weight: bold;
+}
+
+.bug_button {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin: 10px 10px 0 0;
+}
+
+.bug_button_delete {
+    color: red;
+    border: 2px solid red;
+    background: transparent;
+}
+
+.bug_button_delete:focus {
+    outline: none;
+    border: 3px solid red;
+}
+
+.bug_button_unassign {
+    color: blue;
+    border: 2px dashed blue;
+    background: transparent;
+}
+
+.bug_button_unassign:focus {
+    outline: none;
+    border: 3px dashed blue;
+}
+
+.bug_button_assign {
+    color: blue;
+    border: 2px dashed blue;
+    background: transparent;
+    margin-left: 10px;
+}
+
+.bug_button_assign:focus {
+    outline: none;
+    border: 3px dashed blue;
+}
+
+.bug_button_confirm {
+    color: green;
+    border: 2px solid green;
+    background: transparent;
+    margin-left: 10px;
+}
+
+.bug_button_confirm:focus {
+    outline: none;
+    border: 3px solid green;
+}
+
+.bug_assign_select {
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+.report_bug_form {
+    margin: 20px 40px;
+    padding: 20px;
+    box-shadow: 0 0 20px lightgray;
+    width: 700px;
+    border-radius: 5px;
+    border: 2px dashed blue;
+}
+
+.report_bug_form_section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.report_bug_form_label {
+    font-size: 20px;
+}
+
+
+.report_bug_form_input {
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.bug_button_report {
+    color: blue;
+    border: 2px solid blue;
+    background: transparent;
+    margin: 0;
+}
+
+.bug_button_report:focus {
+    outline: none;
+    border: 3px solid blue;
+}
+
+.solution__form {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+}
+
+.solution__form input {
+    width: 250px;
+    margin-right: 20px;
+}
+
+.solution__form button {
+    border: 2px dashed blue;
+    color: blue;
+}
+
+.solution__form button:focus {
+    outline: none;
+    border: 3px dashed blue;
+}
+
+.bug__solution__container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-top: 2px dashed green;
+    border-bottom: 2px dashed green;
+}
+
+.bug__solution__container button {
+    margin: 0 0 0 10px;
+}
+
+.bug__solution__container p {
+    margin: 0;
+}
+
+.no_margin {
+    margin: 0;
+}
